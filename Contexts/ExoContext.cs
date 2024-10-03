@@ -9,8 +9,7 @@ namespace Exo.WebApi.Contexts
         public ExoContext()
         {
         }
-        public ExoContext(DbContextOptions<ExoContext> options) :
-        base(options)
+        public ExoContext(DbContextOptions<ExoContext> options) : base(options)
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
